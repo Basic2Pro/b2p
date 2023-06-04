@@ -1151,6 +1151,10 @@ footer a{
       flex: 100%;
       max-width: 100%;
     }
+
+    .swiper-button-next, .swiper-button-prev{
+        visibility: hidden;
+    }
   }
 
 
@@ -1205,6 +1209,15 @@ footer a{
 
     .contact-card .contact-btn .btn{
         font-size: 0.8rem;
+    }
+
+    /*=======Clients=======*/
+    .client-swiper .swiper-slide{
+        flex-direction: column;
+    }
+
+    .client-details{
+        text-align: center;
     }
 }
         
